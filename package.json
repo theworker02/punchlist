@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/punchlist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Punch filesystem list paths across POSIX and Windows conventions.",
+  "bin": {
+    "punchlist": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/punchlist.git"
+  },
+  "homepage": "https://theworker02.github.io/punchlist/",
+  "keywords": [
+    "punch",
+    "list",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
